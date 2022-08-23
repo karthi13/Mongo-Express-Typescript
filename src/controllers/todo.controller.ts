@@ -23,7 +23,7 @@ export const updateTodo: RequestHandler = async (req, res) => {
 };
 
 export const deleteTodo: RequestHandler = async (req, res) => {
-    const deletedTodo = await removeTodoHandler(req.params.todoId);
+    await removeTodoHandler(req.params.todoId);
     res.status(201).send({ message: `Deleted id: ${req.params.todoId}` });
 };
 
