@@ -1,1 +1,1 @@
-web:ts-node/app.js
+web: npm start

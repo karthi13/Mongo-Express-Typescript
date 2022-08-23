@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "ts-node app.ts",
+    "start": "node build/dist/app.js",
+    "postinstall": "tsc",
     "dev": "nodemon --exec ts-node app.ts"
   },
   "engines": {
