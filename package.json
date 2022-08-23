@@ -7,6 +7,10 @@
     "build": "tsc",
     "dev": "nodemon --exec ts-node app.ts"
   },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
+  },
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "~1.4.4",
